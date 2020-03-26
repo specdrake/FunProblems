@@ -8,7 +8,7 @@ int main(){
 		cout<<0<<endl;
 		return 0;
 	}
-	while(c<n){
+	while(c<=n){
 		if(c%2==0){
 			ans+=c;
 		}

@@ -9,7 +9,7 @@ import sys
 def calc(n):
     a = 0
     b = 1
-    if n < 0: 
+    if (n < 0): 
         print("Incorrect input") 
     elif n == 0: 
         print(a)
@@ -24,6 +24,6 @@ def calc(n):
 
 if __name__ == '__main__':
     #Accept user input and call calc()
-    x = input("")
+    x = int(input(""))
     calc(x)
     sys.exit(0)

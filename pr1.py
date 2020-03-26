@@ -1,13 +1,22 @@
-#If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-#Find the sum of all the multiples of 3 or 5 below n where n is a number entered by user
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2020-03-26 10:05:48
+# @Author  : Garvit Kansal (helewrer3@gmail.com)
+# @Link    : NULL
+# @Version : 1.0.0
+
 import sys
 def calc(n):
-    #TODO
+    ans = 0
+    for i in range(n):
+        if i%3 == 0:
+            ans = ans + i
+        elif i%5 == 0:
+            ans = ans + i
+    print(ans)
 
 if __name__ == '__main__':
     #Accept user input and call calc()
-    #TODO
+    x = int(input(""))
+    calc(x)
     sys.exit(0)
-
-
-

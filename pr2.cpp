@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-	int a=0,b=1,c=0;
+	int a=1,b=2,c=0;
 	int n,ans=0;
 	cin>>n;
 	while(c<n){

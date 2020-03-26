@@ -11,5 +11,6 @@ Please choose one of the five problems and edit the corresponding file and send 
 
 __SOLVED__
 
+__pr1__ by _helewrer3_
 
 __pr3__ by _RIYUZAKI09_

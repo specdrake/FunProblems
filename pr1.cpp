@@ -8,9 +8,9 @@ int main(){
 	}else{
 		while(x<=n){
 			if(x%3==0 or x%5==0){
-				sum+=x;
-				x++;
+				ans+=x;
 			}
+			x++;
 		}
 		cout<<ans<<endl;
 	}

@@ -17,6 +17,6 @@ def calc(n):
 
 if __name__ == '__main__':
     #Accept user input and call calc()
-    x = input("Enter number")
+    x = input("")
     calc(x)
     sys.exit(0)
